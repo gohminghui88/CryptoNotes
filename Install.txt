@@ -1,0 +1,31 @@
+-------------------------------------------------------------
+Cryptonotes is Brought to you by LajuSoft.com and SVBook.com
+
+Version: 1.0.0 beta
+License: LGPL
+Developer: Eric M. H. Goh
+
+Copyrighted 2016. All Rights Reserved. 
+-------------------------------------------------------------
+
+
+This script requires  PHP server and mysql server. They are written in a very rough manner for my personal use only. Hence, please use it at your own risks. 
+
+
+1. Use phpmyadmin to help you import the sql file ("cryptonotes.sql") to your database. Edit the sql file if required. 
+
+2. Edit all PHP Files to change the following settings: 
+
+$servername = "localhost";
+$username = "Your_Database_Username";
+$password = "Your_Database_Passwords";
+$dbname = "Your_Database_Name";
+
+3. Upload all files to the server. 
+
+4. Run the app on your server and Create a new user. 
+
+Note: You may need to change some of the parameters such as the hyperlink address to ensure the scripts works on your server. You may use AppInventor to creat an android apps that will navigate to your server to use
+the cryptonotes on your mobile devices. 
+
+
